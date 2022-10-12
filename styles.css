@@ -141,3 +141,30 @@ h1
 {
 	color:#666;
 }
+
+.contact-input
+{
+	width:70%;
+}
+
+.contact-input::placeholder
+{
+	color:#888;
+	font-size: 1rem;
+}
+#contact-section h3
+{
+	padding:5rem;
+}
+#contact-section button
+{
+	margin-top:2%;
+	width:70%;
+}
+
+footer
+{
+	color:#f4f4f4;
+	text-align:center;
+	font-family: monospace;
+}
