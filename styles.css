@@ -1,4 +1,22 @@
-#navbarToggler01
+h1
 {
-	margin-left:75%;
+	font-family: 'Montserrat', sans-serif;
+	size=3rem;
+	line-height:1.5;
+}
+
+.btn
+{
+	background:#fd7e14;
+}
+
+.navbar
+{
+	background:#fd7e14 !important;
+}
+
+#home-section
+{
+	background-image:url('/home/shah/Documents/learning/web/angelayu/bootstrap4-website/images/headerback.jpg');
+	padding:0 5%;
 }
