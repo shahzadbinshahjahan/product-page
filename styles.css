@@ -112,8 +112,17 @@ h1
 	padding-top:2%;
 }
 
+#blog-section
+{
+	padding:0 100px 100px 100px;
+	text-align: center;
+}
+.card-img-top
+{
+	height:10rem;
+}
+
 .blog-card
 {
-	
-
+	padding:3% 2%;
 }
