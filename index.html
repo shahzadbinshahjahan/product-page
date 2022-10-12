@@ -22,56 +22,97 @@
 
 	</head>
 	<body>
-	<nav class="navbar navbar-expand-sm">
+	<nav class="navbar navbar-expand-sm sticky-top">
 		<div class="container-fluid">	
-		<a href="" class="navbar-brand">SHZD</a>
+		<a href="#home-section" class="navbar-brand">SHZD</a>
 		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler01" aria-controls="navbarToggler01" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 		<div id="navbarToggler01" class="collapse navbar-collapse justify-content-end">
 			<div class="navbar-nav mr-auto" id="NavToggle01">
-			<a href="" class="nav-link">About</a>
-			<a href="" class="nav-link">Portfolio</a>
-			<a href="" class="nav-link">Blog</a>
-			<a href="" class="nav-link">Contact</a>
+			<a href="#about-section" class="nav-link">About</a>
+			<a href="#portfolio-section" class="nav-link">Portfolio</a>
+			<a href="#blog-section" class="nav-link">Blog</a>
+			<a href="#contact-section" class="nav-link">Contact</a>
 		</div>
 		</div>
 	</nav>
-	<div id="home-section" class="contianer-fluid">
+	<div id="home-section" class="contianer-fluid sections">
 	<div class="home-description">
 	<h1>Hello, Welcome to My official Website</h1>
 	<p>cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 	<button class="btn btn-lg"> See More <i class="fas fa-info-circle"></i></button>
 	</div>
 	</div>
-	<h3>About Me</h3>
-	<div>
-		<img></img>
-		<div>
-			<h4>Shahzad Bin Shahjahan</h4>
-			<p>ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+	<div id="about-section" class="container-fluid sections">
+		<div style="padding-top:10%;"></div> 
+	<!-- this is for the space between the main heading and the above section as when i click on the link in nav
+	the heading is not in the viewport-->
+			<h3 class="text-center main-heading">About me</h3>
+			<div class="row">
+				<div class="col-md-4 text-center" style="padding-left:2em">
+					<img src="images/team-3.jpg" class="profile-img img-fluid"></img>
+					<p class="senior-developer">Senior Developer</p>
+				</div>
+				<div class="col-md-8 about-description">
+				<h4>Shahzad Bin Shahjahan</h4>
+				<p>ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+				</div>
+			</div>
+	</div>
+	
+	
+	<div id="portfolio-section" class="container-fluid sections">
+	<div style="padding-top:10%;"></div>
+           <!-- this is for the space between the main heading and the above secti    on as when i click on the link in nav
+           the heading is not in the viewport-->
+
+	<h3 class="text-center main-heading">Portfolio</h3>
+	<div class="container">
+	<div class="row portfolio-row">
+	<img src="images/portfolio/Classic.jpg" class="col-lg-4 col-md-6 img-fluid portfolio-images"></img>
+	<img src="images/portfolio/electric.png" class="col-lg-4 col-md-6 img-fluid portfolio-images"></img>
+	<img src="images/portfolio/port8.png" class="col-lg-4 col-md-6 img-fluid portfolio-images"></img>
+	</div>
+	</div>
+	</div>
+
+
+	<div id="blog-section" class="container-fluid sections">
+	<div style="padding-top:10%;"></div>
+           <!-- this is for the space between the main heading and the above secti    on as when i click on the link in nav
+           the heading is not in the viewport-->
+
+	<h3 class="text-center main-heading">Blog</h3>
+		<div class="row container-fluid">
+			<div class="col-lg-4 col-md-6 blog-card">
+				nation
+			</div>
+			<div class="col-lg-4 col-md-6 blog-card">
+				nation
+			</div>
+			<div class="col-lg-4 col-md-6 blog-card">
+				nation
+			</div>
 		</div>
 	</div>
-	<div>
-	<h3>Portfolio</h3>
-	<img></img>
-	<img></img>
-	<img></img>
-	</div>
-	<div>
-	<h3>Blog</h3>
-	</div>
-	<div id="team-section">
-	<h3>Our team</h3>
+	
+	
+	<div id="team-section" class="container-fluid sections">
+	<h3 class="text-center main-heading">Our team</h3>
 	<div class="row container-fluid">
-	<img src="/home/shah/Documents/learning/web/angelayu/bootstrap4-website/images/team-2.jpg" class="col-md-3"></img>
-	<img src="/home/shah/Documents/learning/web/angelayu/bootstrap4-website/images/team-3.jpg" class="col-md-3"></img>
-	<img src="/home/shah/Documents/learning/web/angelayu/bootstrap4-website/images/team-2.jpg" class="col-md-3"></img>
-	<img src="/home/shah/Documents/learning/web/angelayu/bootstrap4-website/images/team-3.jpg" class="col-md-3"></img>
+	<img src="images/team-2.jpg" class="col-md-3"></img>
+	<img src="images/team-3.jpg" class="col-md-3"></img>
+	<img src="images/team-2.jpg" class="col-md-3"></img>
+	<img src="images/team-3.jpg" class="col-md-3"></img>
 	</div>
 	</div>
-	<div>
-	<h3>Get in touch </h3>
+	<div id="contact-section" class="container-fluid sections">
+	<div style="padding-top:10%;"></div>
+           <!-- this is for the space between the main heading and the above secti    on as when i click on the link in nav
+           the heading is not in the viewport-->
+
+	<h3 class="text-center main-heading">Get in touch </h3>
 	<input type="text"/>
 	<input type="email"/>
 	<input type="textarea"/>

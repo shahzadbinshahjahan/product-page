@@ -1,7 +1,7 @@
 h1
 {
 	font-family: 'Montserrat', sans-serif;
-	size=3rem;
+	size:3rem;
 	line-height:1.5;
 }
 
@@ -28,9 +28,9 @@ h1
 	color:#fd7e14;
 }
 
-#home-section
+.sections
 {
-	margin:auto;
+	margin-top:auto;
 	width:100vw;
 	height:100vh;
 }
@@ -39,7 +39,7 @@ h1
 {
 	z-index:-100;
 	content:"";
-	background-image:url('/home/shah/Documents/learning/web/angelayu/bootstrap4-website/images/headerback.jpg');
+	background-image:url('images/headerback.jpg');
 	background-size:cover;
 	background-position:center;
 	opacity:0.25;
@@ -66,4 +66,54 @@ h1
 {
 	background-color:#666;
 	color:#f4f4f4;
+}
+
+.profile-img
+{
+	border-radius:50%;
+}
+
+.main-heading
+{
+	color:#fd7e14;
+	font-size:2.5rem;
+	padding-top:5px;
+}
+
+.about-description
+{
+	padding:3%;;
+}
+.about-description p
+{
+	width:70%;
+	color:#666;
+}
+.about-description h4
+{
+	font-family: 'Montserrat', sans-serif;
+  	font-size:3rem;
+
+}
+
+.senior-developer
+{
+	color:#666;
+}
+
+.portfolio-images
+{
+	height:15rem;
+	padding:2%;	
+}
+
+.portfolio-row
+{
+	padding-top:2%;
+}
+
+.blog-card
+{
+	
+
 }
