@@ -8,6 +8,7 @@ h1
 .btn
 {
 	background:#fd7e14;
+	color:#f4f4f4;
 }
 
 .navbar
@@ -15,12 +16,54 @@ h1
 	background:#fd7e14 !important;
 }
 
+.nav-link , .navbar-brand
+{
+	color:#f4f4f4;
+	margin: 0 1em;
+}
+
+.nav-link:hover
+{
+	background:#f4f4f4;
+	color:#fd7e14;
+}
+
 #home-section
 {
+	margin:auto;
+	width:100vw;
+	height:100vh;
+}
+
+#home-section:before
+{
+	z-index:-100;
+	content:"";
 	background-image:url('/home/shah/Documents/learning/web/angelayu/bootstrap4-website/images/headerback.jpg');
 	background-size:cover;
 	background-position:center;
-	padding:0 5%;
-	width:100vw;
-	height:100vh;
+	opacity:0.25;
+	position:absolute;
+	top:0;
+	right:0;
+	left:0;
+	bottom:0;
+}
+
+.home-description
+{
+	position:absolute;
+	top:30%;
+	padding:2em;
+}
+.home-description p
+{
+	width:50%;
+	color:#666;
+}
+
+.btn:hover
+{
+	background-color:#666;
+	color:#f4f4f4;
 }
