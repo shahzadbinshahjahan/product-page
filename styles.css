@@ -126,3 +126,18 @@ h1
 {
 	padding:3% 2%;
 }
+
+.team-image
+{
+	width:15rem;
+	height:13rem;
+	margin:0 1% 0 1%;
+}
+.team-row img
+{
+	text-align: center;
+}
+.team-row p
+{
+	color:#666;
+}

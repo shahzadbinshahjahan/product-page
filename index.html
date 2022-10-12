@@ -7,8 +7,8 @@
 	
 		<!--Bootstrap CDN-->
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    		<link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
 		<!--Google fonts -->
+    		<link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Roboto&family=Ubuntu&display=swap" rel="stylesheet"> 
@@ -33,6 +33,7 @@
 			<a href="#about-section" class="nav-link">About</a>
 			<a href="#portfolio-section" class="nav-link">Portfolio</a>
 			<a href="#blog-section" class="nav-link">Blog</a>
+			<a href="#team-section" class="nav-link">Our Team</a>
 			<a href="#contact-section" class="nav-link">Contact</a>
 		</div>
 		</div>
@@ -121,14 +122,31 @@
 	
 	
 	<div id="team-section" class="container-fluid sections">
-	<h3 class="text-center main-heading">Our team</h3>
-	<div class="row container-fluid">
-	<img src="images/team-2.jpg" class="col-md-3"></img>
-	<img src="images/team-3.jpg" class="col-md-3"></img>
-	<img src="images/team-2.jpg" class="col-md-3"></img>
-	<img src="images/team-3.jpg" class="col-md-3"></img>
+		<div style="padding-top:10%;"></div> 
+	<!-- this is for the space between the main heading and the above section as when i click on the link in nav
+	the heading is not in the viewport-->
+		<h3 class="text-center main-heading" style="margin-bottom:5%;">Our team</h3>
+		<div class="row container-fluid team-row">
+				<div class="col-md-3">
+					<img src="images/team-2.jpg" class="team-image img-fluid"></img>
+					<p>CEO</p>
+				</div>
+				<div class="col-md-3">
+					<img src="images/team-3.jpg" class="team-image img-fluid"></imga>
+					<p>Manager</p>
+				</div>
+				<div class="col-md-3">
+					<img src="images/team-2.jpg" class="team-image img-fluid"></img>
+					<p>Creative Head</p>
+				</div>
+				<div class="col-md-3">
+					<img src="images/team-3.jpg" class="team-image img-fluid"></img>
+					<p>Junior Engineer</p>
+				</div>
+		</div>
 	</div>
-	</div>
+
+
 	<div id="contact-section" class="container-fluid sections">
 	<div style="padding-top:10%;"></div>
            <!-- this is for the space between the main heading and the above secti    on as when i click on the link in nav
