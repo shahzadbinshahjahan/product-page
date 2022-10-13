@@ -30,6 +30,7 @@ h1
 
 .sections
 {
+	
 	margin-top:auto;
 	width:100vw;
 	height:100vh;
@@ -37,7 +38,7 @@ h1
 
 #home-section:before
 {
-	z-index:-100;
+	
 	content:"";
 	background-image:url('images/headerback.jpg');
 	background-size:cover;
@@ -167,4 +168,28 @@ footer
 	color:#f4f4f4;
 	text-align:center;
 	font-family: monospace;
+}
+
+/*Responsive design*/
+
+@media (max-width:560px)
+{
+	.home-description
+	{
+		top:15%;
+	}
+	.profile-img
+	{
+		width: 200px;
+		height:200px;
+	}
+	#about-section h4
+	{
+		font-size:2rem;
+	}
+}
+
+@media (max-width:950px)
+{
+	
 }
