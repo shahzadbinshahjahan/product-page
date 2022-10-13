@@ -38,7 +38,7 @@
 		</div>
 		</div>
 	</nav>
-	<div id="home-section" class="contianer-fluid sections">
+	<div id="home-section" class="contianer-fluid"> <!--Not using sections class, cause this section is absolute and it will mess up the flow-->
 	<div class="home-description">
 	<h1>Hello, Welcome to My official Website</h1>
 	<p>cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -126,7 +126,7 @@
 	<!-- this is for the space between the main heading and the above section as when i click on the link in nav
 	the heading is not in the viewport-->
 		<h3 class="text-center main-heading" style="margin-bottom:5%;">Our team</h3>
-		<div class="row container-fluid team-row">
+		<div class="row container-fluid team-row text-center">
 				<div class="col-md-3">
 					<img src="images/team-2.jpg" class="team-image img-fluid"></img>
 					<p>CEO</p>
@@ -155,11 +155,11 @@
 		<div class="col-md-4">
 			<h3 class="text-center main-heading">Get in touch </h3>
 		</div>
-		<div class="col-md-8">
+		<div class="col-md-8 contact-flexbox">
 			<input type="text" class="form-control form-control-lg contact-input" placeholder="Your Name"/><br/>
 			<input type="email" class="form-control form-control-lg contact-input" placeholder="Email"/><br/>
 			<textarea class="form-control form-control-lg contact-input" placeholder="Your Message"></textarea>
-			<button class="btn">Send</button>
+			<button class="btn" style="margin-bottom:5%;">Send</button>
 		</div>
 	</div>
 	</div>
